@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+        The <head> element is a container for metadata (data about data), Metadata is not displayed on the page.
+        Metadata typically define the document title, character set, styles, scripts, and other meta information.
+    
+        -->
+
+    <!--The <title> element defines the title of the document.
+        The title must be text-only, and it is shown in the browser's title bar or in the page's tab.-->
+    <title>HTML - The Head Element</title>
+
+    <style>
+        body {background-color: powderblue;}
+        h1 {color: red;}
+        p {color: rgb(12, 179, 54);}
+        pre{color:blue;}
+        
+    </style>
+
+    <link rel="icon" type="x-icon" href="favicon.png">
+    <!--The following broswer shows the file format support for a favicon image:
+    file format ICO/PNG/GIF/JPEG/SVG > browser Edge/Chrome/Firefox/Opera/Safari-->
+    <link rel="link" href="intro.html">
+
+    <!--Define the character set used:-->
+    <meta charset="UTF-8">
+
+    <!--Define keywords for search engines:-->
+    <meta name="keywords" content="HTML">
+
+    <!--Define a description of your web page:-->
+    <meta name="description" content="Free HTML resource">
+
+    <!--Define the author of a page:-->
+    <meta name="author" content="Gaurav Singh">
+
+    <!--Refresh document every 30 seconds:-->
+    <meta http-equiv="refresh" content="30">
+
+    <!--Setting the viewport to make your website look good on all devices:-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This gives the browser instructions on how to control the page's dimensions and scaling.
+
+    The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+    The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
+
+    <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "The Script element is used to define client-side JavaScripts";
+        }
+    </script>
+
+    <!---->
+    <base href="https://www.w3schools.com/" target="_blank">
+
+    <noscript>Your browser does not support JavaScript!</noscript>
+
+</head>
+<body>
+
+    
+        <h5>All Head Tags</h5>
+
+        <pre>
+            The HTML &lt;head&gt; element is a container for the following elements: &lt;ttitle&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;, and &lt;base&gt;.
+            The &lt;head&gt; element is a container for metadata (data about data), Metadata is not displayed on the page.
+            Metadata typically define the document title, character set, styles, scripts, and other meta information.
+        </pre>
+
+        <hr style="color: yellow;">
+
+        <p>The &lt;title&gt; element defines the title of the document.
+        The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</p>
+
+        <hr style="color: aqua;">
+
+        <p>The &lt;link&gt; Defines the relationship between a document and an external resource
+        <br>The &lt;link&gt; tag is most often used to link to external style sheets:
+        </p>
+
+        <hr>
+        <p id="demo">&lt;script&gt;</p>
+        <button type="button" onclick="myFunction()">Click</button>
+
+        <hr>
+
+        <pre style="color: blueviolet;">
+            <h1>The HTML &lt;base&gt; Element</h1>           
+            The &lt;base&gt; element specifies the base URL and/or target for all relative URLs in a page.         
+            The &lt;base&gt; tag must have either an href or a target attribute present, or both.
+            <span style="color: red;">There can only be one single &lt;base&gt; element in a document!</span>
+        </pre>
+
+        <pre><img src="images/stickman.gif" width="15" height="25" alt="Stickman"> - Notice that we have only specified a relative address for the image.
+        Since we have specified a base URL in the head section,
+        the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".
+        </pre>
+
+        <pre><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute.
+            This is because the target attribute of the base element is set to "_blank".
+        </pre>
+
+
+        <hr>
+
+
+</body>
+</html>
