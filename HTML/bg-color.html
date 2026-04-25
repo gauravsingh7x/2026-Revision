@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Background Images</title>
+
+    
+    <!--We can also specify the background image in the <style> element, in the <head> section:
+    <style>
+            body{
+                background-image: url('img_girl.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+    </style>
+-->
+<!--background-size: 100% 100%;
+Try resizing the browser window, and you will see that the image will stretch, but always cover the entire element.-->>
+
+</head>
+
+<!--If you want the entire page to have a background image, you must specify the background image on the <body> element:-->
+<body>
+    
+    <!--To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:-->
+    <p style="background-image: url('img_girl.jpg');">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ut libero, quam ad commodi voluptatem repellat impedit assumenda qui voluptatum cum accusantium vitae ratione fuga maxime doloremque, placeat repudiandae.
+    Quae optio consequuntur magni necessitatibus, nam porro voluptatibus dolorum quasi doloribus eum doloremque sint consectetur beatae a! Illum, necessitatibus dicta nesciunt nam harum neque excepturi dolore possimus culpa reprehenderit. Autem.
+    Officiis tempora molestias modi quos? Ut, distinctio vel labore corporis doloremque dolorum ullam adipisci nulla harum. Magni rem doloremque reiciendis laboriosam! Repudiandae quae architecto obcaecati laboriosam, at repellat placeat pariatur.
+    Necessitatibus, accusantium totam non culpa ea a ex ducimus! Tenetur in ex incidunt veritatis at beatae quibusdam culpa sequi hic esse. Sapiente, maxime id consequuntur dolorum nihil possimus iste soluta?
+    Ipsum deserunt necessitatibus laboriosam unde quia at optio quisquam assumenda a obcaecati! Culpa harum, est eligendi quo fugiat voluptatum architecto mollitia eius rem officia numquam magni animi fugit maiores. Voluptatem.</p>
+
+    <!--Background Repeat:
+    If the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it reaches the end of the element:
+
+    To avoid the background image from repeating itself, set the background-repeat property to no-repeat.-->
+    <p style="background-repeat: no-repeat; background-image: url(img_girl.jpg);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ut libero, quam ad commodi voluptatem repellat impedit assumenda qui voluptatum cum accusantium vitae ratione fuga maxime doloremque, placeat repudiandae.
+    Quae optio consequuntur magni necessitatibus, nam porro voluptatibus dolorum quasi doloribus eum doloremque sint consectetur beatae a! Illum, necessitatibus dicta nesciunt nam harum neque excepturi dolore possimus culpa reprehenderit. Autem.
+    Officiis tempora molestias modi quos? Ut, distinctio vel labore corporis doloremque dolorum ullam adipisci nulla harum. Magni rem doloremque reiciendis laboriosam! Repudiandae quae architecto obcaecati laboriosam, at repellat placeat pariatur.
+    Necessitatibus, accusantium totam non culpa ea a ex ducimus! Tenetur in ex incidunt veritatis at beatae quibusdam culpa sequi hic esse. Sapiente, maxime id consequuntur dolorum nihil possimus iste soluta?
+    Ipsum deserunt necessitatibus laboriosam unde quia at optio quisquam assumenda a obcaecati! Culpa harum, est eligendi quo fugiat voluptatum architecto mollitia eius rem officia numquam magni animi fugit maiores. Voluptatem.</p>
+
+
+    <!--Background Cover:
+    If you want the background image to cover the entire element, you can set the background-size property to cover.
+    Also, to make sure the entire element is always covered, set the background-attachment property to fixed:
+    This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions):-->
+    <p style="background-size:cover; background-repeat: no-repeat; background-image: url(img_girl.jpg);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ut libero, quam ad commodi voluptatem repellat impedit assumenda qui voluptatum cum accusantium vitae ratione fuga maxime doloremque, placeat repudiandae.
+    Quae optio consequuntur magni necessitatibus, nam porro voluptatibus dolorum quasi doloribus eum doloremque sint consectetur beatae a! Illum, necessitatibus dicta nesciunt nam harum neque excepturi dolore possimus culpa reprehenderit. Autem.
+    Officiis tempora molestias modi quos? Ut, distinctio vel labore corporis doloremque dolorum ullam adipisci nulla harum. Magni rem doloremque reiciendis laboriosam! Repudiandae quae architecto obcaecati laboriosam, at repellat placeat pariatur.
+    Necessitatibus, accusantium totam non culpa ea a ex ducimus! Tenetur in ex incidunt veritatis at beatae quibusdam culpa sequi hic esse. Sapiente, maxime id consequuntur dolorum nihil possimus iste soluta?
+    Ipsum deserunt necessitatibus laboriosam unde quia at optio quisquam assumenda a obcaecati! Culpa harum, est eligendi quo fugiat voluptatum architecto mollitia eius rem officia numquam magni animi fugit maiores. Voluptatem.</p>
+
+
+</body>
+</html>
