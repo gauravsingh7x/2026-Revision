@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Property CSS</title>
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: aquamarine;
+          /*border-style: solid;
+            border-width: 2px;
+            border-color: red;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 20px;
+            border-bottom: solid 5px green;*/
+            border: solid green 5px;
+            border-radius: 10px;
+            width: 350px;
+            height: 100px;
+        }
+
+        .first-para{
+            background-color: blanchedalmond;
+            border: solid green 5px;
+            border-radius: 10px;
+            width: 500px;
+            height: 100px;
+        }
+        
+        .second-para{
+            background-color: aqua;
+            border: solid green 5px;
+            border-radius: 10px;
+            width: 500px;
+        }
+
+        .third-para{
+            background-color: green;
+            border: solid red 5px;
+            border-radius: 10px;
+            width: 500px;
+        }
+
+        .fourth-para{
+            background-color: red;
+            border: solid green 5px;
+            border-radius: 10px;
+            width: 500px;
+        }
+
+        span{
+            background-color: red;
+            border: solid green 5px;
+            border-radius: 10px;
+            /*h-w property doesn't works on span tag why ? 
+            because it is an inline element by default */
+            width: 500px;
+            height: 500px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Welcome to Box Model</h1>
+
+    <span>Hello Span Tag</span>
+
+    <p class="first-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nemo quis dolorem soluta exercitationem assumenda qui debitis, dolore minima iure et non placeat odit aliquam consequatur eaque eius atque fuga?</p>
+    <p class="second-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nemo quis dolorem soluta exercitationem assumenda qui debitis, dolore minima iure et non placeat odit aliquam consequatur eaque eius atque fuga?</p>
+    <p class="third-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nemo quis dolorem soluta exercitationem assumenda qui debitis, dolore minima iure et non placeat odit aliquam consequatur eaque eius atque fuga?</p>
+    <p class="fourth-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nemo quis dolorem soluta exercitationem assumenda qui debitis, dolore minima iure et non placeat odit aliquam consequatur eaque eius atque fuga?</p>
+
+    <section>
+        <p title="In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.">Width and Height of an Element</p>
+        <details>
+            <summary>The total height of an element should be calculated like this:</summary>
+            <p>Total element height = height + top padding + bottom padding + top border + bottom border</p>
+        </details>
+        <details>
+            <summary>The total width of an element should be calculated like this:</summary>
+            <p>Total element width = width + left padding + right padding + left border + right border</p>
+        </details>
+    </section>
+
+</body>
+</html>

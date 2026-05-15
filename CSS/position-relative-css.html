@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property CSS</title>
+    
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        div{
+            border: 1px solid;
+        }
+
+        img{
+            margin: 10px;
+        }
+
+        /*position-relative*/
+        .imagerel1{
+            position: relative;
+            top: 100px;
+        }
+        .image2rel{
+            position: relative;
+            bottom: 100px;
+        }
+        .imagerel3{
+            position: relative;
+            right: 100px;
+        }
+        .imagerel4{
+            position: relative;
+            left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>position-relative Property in CSS</h1>
+    
+    <div class="container" title="position-relative > work in current window.. top, bottom, left, right but the space of that image will be maintained">
+        <img class="imagerel1" src="images/position1.jpg" alt="position1" width="300px" height="300px">
+        <img class="imagerel2" src="images/position2.jpg" alt="position2" width="300px" height="300px">
+        <img class="imagerel3" src="images/position3.jpg" alt="position3" width="300px" height="300px">
+        <img class="imagerel4" src="images/position4.jpg" alt="position4" width="300px" height="300px">
+    </div>
+
+</body>
+</html>

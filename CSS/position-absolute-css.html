@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property CSS</title>
+    
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        div{
+            border: 1px solid;
+        }
+
+        img{
+            margin: 10px;
+        }
+
+        .container{
+            position: relative;
+        }
+
+        /*position-absolute*/
+        .image2{
+            position: absolute;
+            top: 150px;
+            left: 100px;
+        }
+        .image3{
+            position: absolute;
+            top: 250px;
+            left: 250px;
+        }
+ 
+
+    </style>
+</head>
+<body>
+    
+    <h1>position-absolute Property in CSS</h1>
+
+    <div class="container" title="position-absolute > used for overlapping, relative to its closest positioned ancestor, do not maintain gap. top ">
+        <img class="image11" src="images/position1.jpg" alt="position1" width="300px" height="300px">
+        <img class="image2" src="images/position2.jpg" alt="position2" width="300px" height="300px">
+        <img class="image3" src="images/position3.jpg" alt="position3" width="300px" height="300px">
+        <img class="image4" src="images/position4.jpg" alt="position4" width="300px" height="300px">
+    </div>
+
+</body>
+</html>

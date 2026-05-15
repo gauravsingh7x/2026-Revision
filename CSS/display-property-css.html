@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property CSS</title>
+    
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div{
+            border: 1px solid;
+            /*now height width margin will not work after conversion into inline*/ 
+            width: 250px;
+            height: 250px;
+            margin: 50px;
+            padding: 25px;
+            /*converting inline to block*/
+            display: inline;
+        }
+        .span1{
+            border: 2px solid green;
+            padding: 25px;
+            /*converting inline to block*/
+            display: block;
+            /*now height width margin will be applied*/
+            height: 250px;
+            width: 250px;
+            margin: 10px;
+        }
+
+        .span2{
+            border: 2px solid green;
+            padding: 25px;
+            /*inline-block > behave like line but custom W H M will work*/
+            display: inline-block;
+            height: 250px;
+            width: 250px;
+            margin: 10px;
+        }
+
+        .span3{
+            border: 2px solid green;
+            padding: 25px;
+            /*inline-block > behave like line but custom W H M will work*/
+            display: inline-block;
+            height: 250px;
+            width: 250px;
+            margin: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Display Property in CSS</h1>
+    
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore beatae consequatur, labore ab sed ratione quos natus quas exercitationem recusandae illum, delectus quod molestias ut reiciendis saepe quaerat, eum veritatis!</p>
+        </div>
+<hr>
+        <span class="span1">Display Property in CSS</span>
+
+<hr>
+        <span class="span2">Display Property in CSS</span>
+
+        <span class="span3">Display Property in CSS</span>
+    
+
+</body>
+</html>
