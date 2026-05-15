@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Fonts and Colors Property CSS--</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        p{
+        /*  font-style: italic;*/
+            font-size: 25px;
+            /*websave fonts > fallback system*/
+            font-family:"Playwrite NO", cursive; font-optical-sizing: auto;
+            /*bold*/
+            font-weight: 700;
+            /*space bw lines*/
+            line-height: 50px;
+            text-align: center;
+        }
+        #first-para{
+            background-color: red;
+            color: blue;
+        }
+        #second-para{
+            background-color: rgb(7, 227, 135);
+            color: ;
+        }
+        #third-para{
+            /*alpha used for fixing rgp color transparency(vale 0> transparent)*/
+            background-color: rgba(13, 134, 214, 1);
+        }
+        .first-class{
+                                /*rgb*/
+            background-color: #a2259a;
+        }
+        .second-class{
+                                /*rgba*/
+            background-color: #6fe1129c;
+        }
+        .third-class{
+            /*Hue:- degree on color(0to360)
+            Saturation:- intensoity of color
+            Lightness:- how much light yopu want to give color*/
+            background-color: hsl(240, 75%, 25%);
+        }
+        .fourth-class{
+            background-color: hsla(0, 75%, 25%, 1);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Fonts and Colors</h1>
+    
+    <p id="first-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea libero quasi quos assumenda magnam deleniti odit ipsa ex placeat reiciendis dignissimos modi, quae totam nobis perferendis odio voluptate soluta. Minus.</p>
+    <p id="second-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellat illo ipsam! Facilis porro perspiciatis sequi fugit libero. Odio ea similique quidem ad quas vel aut et accusantium molestiae optio?</p>
+    <p id="third-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore aperiam maiores accusantium laborum ex veniam harum optio odio non magnam, eveniet, expedita totam unde ipsam quasi necessitatibus quaerat quos.</p>
+    <p class="first-class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore aperiam maiores accusantium laborum ex veniam harum optio odio non magnam, eveniet, expedita totam unde ipsam quasi necessitatibus quaerat quos.</p>
+    <p class="second-class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore aperiam maiores accusantium laborum ex veniam harum optio odio non magnam, eveniet, expedita totam unde ipsam quasi necessitatibus quaerat quos.</p>
+    <p class="third-class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore aperiam maiores accusantium laborum ex veniam harum optio odio non magnam, eveniet, expedita totam unde ipsam quasi necessitatibus quaerat quos.</p>
+    <p class="fourth-class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore aperiam maiores accusantium laborum ex veniam harum optio odio non magnam, eveniet, expedita totam unde ipsam quasi necessitatibus quaerat quos.</p>
+
+
+
+
+
+</body>
+</html>

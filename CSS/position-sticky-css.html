@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property CSS</title>
+    
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        div{
+            border: 1px solid;
+        }
+
+        img{
+            margin: 10px;
+        }
+
+        .container{
+            height: 1000px;
+            position: relative;
+            background-color: beige;
+        }
+
+        /*position-sticky*/
+        .image3{
+            position: sticky;
+            top: 250px;
+            left: 250px;
+        }
+        .image4{
+            position: fixed;
+            top: 150px;
+            left: 250px;
+        }
+
+        .box{
+            background-color: aquamarine;
+            height: 1000px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>position-sticky Property in CSS</h1>
+
+    <div class="container" title="position-stricky > related to parent conatiner/window ">
+        <img class="image11" src="images/position1.jpg" alt="position1" width="300px" height="300px">
+        <img class="image2" src="images/position2.jpg" alt="position2" width="300px" height="300px">
+        <img class="image3" src="images/position3.jpg" alt="position3" width="300px" height="300px" title="position-sticky">
+        <img class="image4" src="images/position4.jpg" alt="position4" width="300px" height="300px" title="position-fixed">
+    </div>
+
+    <div class="box">
+
+    </div>
+
+</body>
+</html>
