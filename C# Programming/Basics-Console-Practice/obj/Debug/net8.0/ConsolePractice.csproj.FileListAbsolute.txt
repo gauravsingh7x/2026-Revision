@@ -1,0 +1,14 @@
+S:\DotNet Application\ConsolePractice\bin\Debug\net8.0\ConsolePractice.exe
+S:\DotNet Application\ConsolePractice\bin\Debug\net8.0\ConsolePractice.deps.json
+S:\DotNet Application\ConsolePractice\bin\Debug\net8.0\ConsolePractice.runtimeconfig.json
+S:\DotNet Application\ConsolePractice\bin\Debug\net8.0\ConsolePractice.dll
+S:\DotNet Application\ConsolePractice\bin\Debug\net8.0\ConsolePractice.pdb
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.GeneratedMSBuildEditorConfig.editorconfig
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.AssemblyInfoInputs.cache
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.AssemblyInfo.cs
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.csproj.CoreCompileInputs.cache
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.dll
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\refint\ConsolePractice.dll
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.pdb
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ConsolePractice.genruntimeconfig.cache
+S:\DotNet Application\ConsolePractice\obj\Debug\net8.0\ref\ConsolePractice.dll
