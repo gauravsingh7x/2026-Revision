@@ -1,11 +1,22 @@
+import java.util.Scanner;
 
-// print 5 to 1 by recursion
-class Recur1{
+//print the reverse number to entered by user by recu
+public class Recur1 {
 
-    public static void printNum(int n){
-        if (n==0)
-        return;
-        
+
+    public static void printNum(int num) {
+        if (num == 0) return;
+        System.out.println(num);
+        printNum(num - 1);
     }
 
+
+    public static void main(String[] args) {
+
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num=scanner.nextInt();
+        printNum(num);
+
+    }
 }
