@@ -1,0 +1,12 @@
+
+Programming > set of instruction
+
+Algorihtm > a sequence of steps to perform task
+
+Approach Program >  Understand
+                    Given value > write down
+                    Approach/Algorihtm
+
+Flowchart > diagramatic format of steps
+
+Pseudocode > roughly write down to human understandble
